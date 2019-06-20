@@ -70,4 +70,5 @@ int find_max_time(vector<double>&mx)
 void time_out(double val)
 {
 	cout << "Максимальный пик был при " << val << " замере. Спустя " << val * 30 << " минут после начала рабочего дня.";	
+	system("pause");
 }
